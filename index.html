@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Vayumitre — Home</title>
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+  body{margin:0;background:#F5F6F3}
+  a{color:#1F6B48} a:hover{color:#164F35}
+  .nav a:hover{background:#EEF1ED;color:#18211C}
+  .card:hover{border-color:#C9D1CB !important}
+  .btn-p:hover{background:#164F35 !important;color:#FFFFFF !important}
+  .btn-s:hover{border-color:#4E5A53 !important;color:#18211C !important}
+</style>
+</head>
+<body>
+<div style="min-height: 900px; background: #F5F6F3; color: #18211C; font-family: 'IBM Plex Sans', system-ui, sans-serif; font-size: 16px; line-height: 1.5">
+  <header style="border-bottom: 1px solid #E2E6E1; background: #FFFFFF">
+    <div style="max-width: 1120px; margin: 0 auto; padding: 18px 24px; display: flex; flex-wrap: wrap; align-items: center; gap: 16px">
+      <div style="display: flex; align-items: center; gap: 10px">
+        <img src="assets/vayumitre-mark.png" alt="" style="height: 26px; width: auto; display: block">
+        <span style="font-weight: 600; font-size: 17px; letter-spacing: -0.01em">Vayumitre</span>
+        
+      </div>
+      <nav class="nav" aria-label="Primary" style="margin-left: auto; display: flex; flex-wrap: wrap; gap: 4px">
+        <a href="admin.html" style="padding: 10px 14px; border-radius: 8px; text-decoration: none; color: #4E5A53; font-size: 14px; font-weight: 500">Operations</a>
+        <a href="driver.html" style="padding: 10px 14px; border-radius: 8px; text-decoration: none; color: #4E5A53; font-size: 14px; font-weight: 500">Driver</a>
+      </nav>
+    </div>
+  </header>
+
+  <main style="max-width: 1120px; margin: 0 auto; padding: 72px 24px 56px">
+    <p style="margin: 0 0 14px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #67736C; letter-spacing: 0.04em; text-transform: uppercase">Delhi · Air quality</p>
+    <h1 style="margin: 0; max-width: 760px; font-size: 48px; line-height: 1.1; font-weight: 600; letter-spacing: -0.025em">Pollution-control operations, from station reading to spray route.</h1>
+    <p style="margin: 20px 0 0; max-width: 620px; font-size: 18px; color: #4E5A53">Live air quality, hotspot zones and truck dispatch across Delhi.</p>
+    <div style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px">
+      <a class="btn-p" href="admin.html" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 20px; border-radius: 8px; background: #1F6B48; color: #FFFFFF; text-decoration: none; font-weight: 500; font-size: 15px">Open operations</a>
+      <a class="btn-s" href="driver.html" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 20px; border-radius: 8px; border: 1px solid #C9D1CB; background: #FFFFFF; color: #18211C; text-decoration: none; font-weight: 500; font-size: 15px">Driver console</a>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; margin-top: 64px">
+      <a class="card" href="admin.html" style="display: flex; flex-direction: column; gap: 10px; padding: 24px; border: 1px solid #E2E6E1; border-radius: 12px; background: #FFFFFF; text-decoration: none; color: #18211C">
+        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #67736C">01</span>
+        <span style="font-size: 18px; font-weight: 600">Live operations</span>
+        <span style="font-size: 14px; color: #4E5A53">Station map, 24-hour forecast, zones and the current spray plan.</span>
+        <span style="margin-top: 6px; font-size: 13px; font-weight: 500; color: #1F6B48">Live data</span>
+      </a>
+      <a class="card" href="december.html" style="display: flex; flex-direction: column; gap: 10px; padding: 24px; border: 1px solid #E2E6E1; border-radius: 12px; background: #FFFFFF; text-decoration: none; color: #18211C">
+        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #67736C">02</span>
+        <span style="font-size: 18px; font-weight: 600">December scenario</span>
+        <span style="font-size: 14px; color: #4E5A53">A winter-smog day: zones, hourly hotspots, 24-hour time-lapse and spray impact.</span>
+        <span style="margin-top: 6px; font-size: 13px; font-weight: 500; color: #A85F00">Scenario</span>
+      </a>
+      <a class="card" href="driver.html" style="display: flex; flex-direction: column; gap: 10px; padding: 24px; border: 1px solid #E2E6E1; border-radius: 12px; background: #FFFFFF; text-decoration: none; color: #18211C">
+        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #67736C">03</span>
+        <span style="font-size: 18px; font-weight: 600">Driver console</span>
+        <span style="font-size: 14px; color: #4E5A53">Assigned route, current stop, water tank and mission log.</span>
+        <span style="margin-top: 6px; font-size: 13px; font-weight: 500; color: #A85F00">Mobile</span>
+      </a>
+    </div>
+
+  </main>
+
+  <footer style="border-top: 1px solid #E2E6E1">
+    <div style="max-width: 1120px; margin: 0 auto; padding: 20px 24px; display: flex; flex-wrap: wrap; gap: 8px 24px; font-size: 13px; color: #67736C">
+      <span>Vayumitre · Delhi</span>
+    </div>
+  </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Vayumitre — Operations (December)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="stylesheet" href="ops.css">
+</head>
+<body data-mode="december">
+<header class="top">
+  <div class="top-in">
+    <a class="brand" href="index.html"><img class="logo-img" src="assets/vayumitre-mark.png" alt=""><b>Vayumitre</b></a>
+    <nav class="modes" aria-label="Mode">
+      <a href="admin.html">Live</a>
+      <a href="december.html" aria-current="page">December</a>
+      <a href="driver.html">Driver</a>
+    </nav>
+    <div class="status"><span class="dot" id="st-dot"></span><span id="st-src">Connecting…</span><span class="sep">|</span><span class="mono" id="st-time">–</span></div>
+  </div>
+</header>
+
+<main>
+  <div class="titlerow">
+    <div><h1 id="title">December scenario</h1><p id="subtitle">Loading…</p></div>
+    <div class="actions">
+      <button type="button" class="btn" id="btn-export">Export plan</button>
+      <button type="button" class="btn primary" id="btn-dispatch">Dispatch trucks</button>
+    </div>
+  </div>
+
+  <div class="kpis" id="kpis"></div>
+
+  <div class="row">
+    <section class="card wide" aria-label="Zone map">
+      <div class="card-h">
+        <h2>Zone map</h2>
+        <div class="legend">
+          <span><i class="sw" style="background:#7D8C84"></i>Normal</span>
+          <span><i class="sw" style="background:#A85F00"></i>Pre-position</span>
+          <span><i class="sw" style="background:#B3261E"></i>Active</span>
+          <span><i class="ring"></i>P hotspot</span>
+        </div>
+      </div>
+      <div class="mapwrap"><div id="map" role="img" aria-label="Delhi map with zones, stations and hotspots"></div></div>
+      <div class="mapfoot" id="mapfoot"></div>
+    </section>
+
+    <aside class="side">
+      <section class="card">
+        <div class="card-h"><h2>Fixed zones</h2><span class="sub" id="gz-sub">G · set for the month</span></div>
+        <div style="overflow-x:auto">
+          <table>
+            <thead><tr><th scope="col">Zone</th><th scope="col" class="r">Stations</th><th scope="col" class="r">Peak PM2.5</th><th scope="col" class="r">Trucks</th><th scope="col" class="r">Route</th></tr></thead>
+            <tbody id="gz"></tbody>
+          </table>
+        </div>
+      </section>
+      <section class="card">
+        <div class="card-h"><h2>Hotspot zones</h2><span class="sub" id="pz-sub">P · this hour · own trucks</span></div>
+        <div class="plist" id="pz"></div>
+      </section>
+    </aside>
+  </div>
+
+  <div class="row stretch">
+    <section class="card pad wide" id="impact-card"></section>
+    <section class="card pad" style="flex:1 1 420px;min-width:0" id="sources-card"></section>
+  </div>
+
+  <div class="row stretch">
+    <section class="card wide" id="causes-card"></section>
+    <section class="card" style="flex:1 1 420px;min-width:0" id="run-card" hidden></section>
+  </div>
+</main>
+
+<div class="overlay" id="overlay"><div class="modal" id="modal" role="dialog" aria-modal="true"></div></div>
+<script src="ops.js"></script>
+</body>
+</html>

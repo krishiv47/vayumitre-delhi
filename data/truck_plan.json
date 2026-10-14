@@ -1,0 +1,140 @@
+{
+  "generated_at": "2026-08-21T11:54:57.599007+00:00",
+  "active_limit": 95.5,
+  "urgency_window_h": 12,
+  "spray_dwell_min": 8.0,
+  "clusters": [
+    {
+      "label": "P1",
+      "kind": "priority",
+      "n_checkpoints": 2,
+      "trucks_needed": 2,
+      "base_truck_covers": [
+        {
+          "station": "North Campus, DU, Delhi - IITM",
+          "pm25": 124.0,
+          "deadline_h": 7.0,
+          "route_arrival_min": 0.0
+        }
+      ],
+      "dedicated_trucks_for": [
+        {
+          "station": "Wazirpur, Delhi - DPCC",
+          "pm25": 101.0,
+          "deadline_h": 0.0,
+          "route_arrival_min": 20.6
+        }
+      ],
+      "route_total_min": 12.6
+    },
+    {
+      "label": "P2",
+      "kind": "priority",
+      "n_checkpoints": 1,
+      "trucks_needed": 1,
+      "base_truck_covers": [
+        {
+          "station": "Anand Vihar, Delhi - DPCC",
+          "pm25": 256.0,
+          "deadline_h": 0.0,
+          "route_arrival_min": 0.0
+        }
+      ],
+      "dedicated_trucks_for": [],
+      "route_total_min": 2.4
+    },
+    {
+      "label": "P3",
+      "kind": "priority",
+      "n_checkpoints": 1,
+      "trucks_needed": 1,
+      "base_truck_covers": [
+        {
+          "station": "R K Puram, Delhi - DPCC",
+          "pm25": 96.0,
+          "deadline_h": 7.0,
+          "route_arrival_min": 0.0
+        }
+      ],
+      "dedicated_trucks_for": [],
+      "route_total_min": 2.4
+    },
+    {
+      "label": "P4",
+      "kind": "priority",
+      "n_checkpoints": 1,
+      "trucks_needed": 1,
+      "base_truck_covers": [
+        {
+          "station": "Bawana, Delhi - DPCC",
+          "pm25": 245.0,
+          "deadline_h": 0.0,
+          "route_arrival_min": 0.0
+        }
+      ],
+      "dedicated_trucks_for": [],
+      "route_total_min": 2.4
+    },
+    {
+      "label": "G0",
+      "kind": "geo",
+      "n_checkpoints": 1,
+      "trucks_needed": 1,
+      "base_truck_covers": [
+        {
+          "station": "Sonia Vihar, Delhi - DPCC",
+          "pm25": 88.0,
+          "deadline_h": 9.0,
+          "route_arrival_min": 0.0
+        }
+      ],
+      "dedicated_trucks_for": [],
+      "route_total_min": 2.4
+    },
+    {
+      "label": "G2",
+      "kind": "geo",
+      "n_checkpoints": 3,
+      "trucks_needed": 1,
+      "base_truck_covers": [
+        {
+          "station": "Jahangirpuri, Delhi - DPCC",
+          "pm25": 95.0,
+          "deadline_h": 0.0,
+          "route_arrival_min": 0.0
+        },
+        {
+          "station": "Rohini, Delhi - DPCC",
+          "pm25": 91.0,
+          "deadline_h": 8.0,
+          "route_arrival_min": 17.4
+        },
+        {
+          "station": "Alipur, Delhi - DPCC",
+          "pm25": 81.0,
+          "deadline_h": 9.0,
+          "route_arrival_min": 44.0
+        }
+      ],
+      "dedicated_trucks_for": [],
+      "route_total_min": 28.0
+    },
+    {
+      "label": "G4",
+      "kind": "geo",
+      "n_checkpoints": 1,
+      "trucks_needed": 1,
+      "base_truck_covers": [
+        {
+          "station": "Mandir Marg, Delhi - DPCC",
+          "pm25": 90.0,
+          "deadline_h": 0.0,
+          "route_arrival_min": 0.0
+        }
+      ],
+      "dedicated_trucks_for": [],
+      "route_total_min": 2.4
+    }
+  ],
+  "total_trucks_needed": 8
+}

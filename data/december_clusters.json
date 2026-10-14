@@ -1,0 +1,421 @@
+{
+  "generated_at": "2026-10-04T18:44:57.238417+00:00",
+  "quarter": 4,
+  "active_limit": 190.0,
+  "rising_limit": 152.0,
+  "total_workload": 67,
+  "priority_clusters": 0,
+  "geo_clusters": 6,
+  "clusters": [
+    {
+      "kind": "geo",
+      "id": 0,
+      "stations": [
+        "Aya Nagar, Delhi - IITM",
+        "JNU, Delhi - DPCC",
+        "IGI Airport (T3), Delhi - IITM",
+        "Najafgarh, Delhi - DPCC",
+        "Dwarka-Sector 8, Delhi - DPCC",
+        "NSUT Jaffarpur, Delhi - DPCC",
+        "Cantonment Area, Delhi - DPCC",
+        "NSIT Dwarka, Delhi - CPCB",
+        "Pusa, Delhi - IITM"
+      ],
+      "workload": 12,
+      "tier_counts": {
+        "ACTIVE": 9,
+        "PRE_POSITION": 0,
+        "NORMAL": 0
+      }
+    },
+    {
+      "kind": "geo",
+      "id": 1,
+      "stations": [
+        "Pusa, Delhi - DPCC",
+        "Shadipur, Delhi - CPCB",
+        "North Campus, DU, Delhi - IITM",
+        "Punjabi Bagh, Delhi - DPCC",
+        "Mundka, Delhi - DPCC",
+        "Ashok Vihar, Delhi - DPCC",
+        "Wazirpur, Delhi - DPCC"
+      ],
+      "workload": 12,
+      "tier_counts": {
+        "ACTIVE": 7,
+        "PRE_POSITION": 0,
+        "NORMAL": 0
+      }
+    },
+    {
+      "kind": "geo",
+      "id": 2,
+      "stations": [
+        "Rohini, Delhi - DPCC",
+        "Jahangirpuri, Delhi - DPCC",
+        "DTU, Delhi - CPCB",
+        "Bawana, Delhi - DPCC",
+        "Alipur, Delhi - DPCC",
+        "Narela, Delhi - DPCC"
+      ],
+      "workload": 11,
+      "tier_counts": {
+        "ACTIVE": 6,
+        "PRE_POSITION": 0,
+        "NORMAL": 0
+      }
+    },
+    {
+      "kind": "geo",
+      "id": 3,
+      "stations": [
+        "IGNOU_Maidan Garhi, Delhi - DPCC",
+        "Dr. Karni Singh Shooting Range, Delhi - DPCC",
+        "Okhla Phase-2, Delhi - DPCC",
+        "Sri Aurobindo Marg, Delhi - DPCC",
+        "IIT Delhi, Delhi - IITM",
+        "Sirifort, Delhi - CPCB",
+        "CRRI Mathura Road, Delhi - IITM"
+      ],
+      "workload": 11,
+      "tier_counts": {
+        "ACTIVE": 6,
+        "PRE_POSITION": 1,
+        "NORMAL": 0
+      }
+    },
+    {
+      "kind": "geo",
+      "id": 4,
+      "stations": [
+        "R K Puram, Delhi - DPCC",
+        "IMD Lodhi Road, Delhi - IITM",
+        "Major Dhyan Chand National Stadium, Delhi - DPCC",
+        "Commonwealth Sports Complex, Delhi - DPCC",
+        "Talkatora Garden, Delhi - DPCC",
+        "ITO, Delhi - CPCB",
+        "Mandir Marg, Delhi - DPCC"
+      ],
+      "workload": 11,
+      "tier_counts": {
+        "ACTIVE": 7,
+        "PRE_POSITION": 0,
+        "NORMAL": 0
+      }
+    },
+    {
+      "kind": "geo",
+      "id": 5,
+      "stations": [
+        "Anand Vihar, Delhi - DPCC",
+        "Chandni Chowk, Delhi - IITM",
+        "Vivek Vihar, Delhi - DPCC",
+        "IHBAS, Dilshad Garden, Delhi - CPCB",
+        "Sonia Vihar, Delhi - DPCC",
+        "Burari Crossing, Delhi - IITM"
+      ],
+      "workload": 10,
+      "tier_counts": {
+        "ACTIVE": 6,
+        "PRE_POSITION": 0,
+        "NORMAL": 0
+      }
+    }
+  ],
+  "stations": [
+    {
+      "station": "ITO, Delhi - CPCB",
+      "lat": 28.628624,
+      "lng": 77.24106,
+      "pm25": 240.3,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "Narela, Delhi - DPCC",
+      "lat": 28.822836,
+      "lng": 77.101981,
+      "pm25": 351.0,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "Cantonment Area, Delhi - DPCC",
+      "lat": 28.594169,
+      "lng": 77.1251,
+      "pm25": 256.4,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "Major Dhyan Chand National Stadium, Delhi - DPCC",
+      "lat": 28.611281,
+      "lng": 77.237738,
+      "pm25": 288.2,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "Najafgarh, Delhi - DPCC",
+      "lat": 28.570173,
+      "lng": 76.933762,
+      "pm25": 238.3,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "Wazirpur, Delhi - DPCC",
+      "lat": 28.699793,
+      "lng": 77.165453,
+      "pm25": 400.0,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "Mundka, Delhi - DPCC",
+      "lat": 28.684678,
+      "lng": 77.076574,
+      "pm25": 400.1,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "Punjabi Bagh, Delhi - DPCC",
+      "lat": 28.674045,
+      "lng": 77.131023,
+      "pm25": 376.7,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "Anand Vihar, Delhi - DPCC",
+      "lat": 28.647622,
+      "lng": 77.315809,
+      "pm25": 378.4,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "Shadipur, Delhi - CPCB",
+      "lat": 28.6514781,
+      "lng": 77.1473105,
+      "pm25": 274.0,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "Mandir Marg, Delhi - DPCC",
+      "lat": 28.636429,
+      "lng": 77.201067,
+      "pm25": 275.0,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "Pusa, Delhi - DPCC",
+      "lat": 28.639652,
+      "lng": 77.146275,
+      "pm25": 258.5,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "Sirifort, Delhi - CPCB",
+      "lat": 28.5504249,
+      "lng": 77.2159377,
+      "pm25": 188.8,
+      "tier": "PRE_POSITION"
+    },
+    {
+      "station": "Rohini, Delhi - DPCC",
+      "lat": 28.732528,
+      "lng": 77.11992,
+      "pm25": 393.3,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "Vivek Vihar, Delhi - DPCC",
+      "lat": 28.672342,
+      "lng": 77.31526,
+      "pm25": 286.8,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "IHBAS, Dilshad Garden, Delhi - CPCB",
+      "lat": 28.6811736,
+      "lng": 77.3025234,
+      "pm25": 274.8,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "Chandni Chowk, Delhi - IITM",
+      "lat": 28.656756,
+      "lng": 77.227234,
+      "pm25": 259.6,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "DTU, Delhi - CPCB",
+      "lat": 28.7500499,
+      "lng": 77.1112615,
+      "pm25": 252.0,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "Dwarka-Sector 8, Delhi - DPCC",
+      "lat": 28.5710274,
+      "lng": 77.0719006,
+      "pm25": 253.2,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "IIT Delhi, Delhi - IITM",
+      "lat": 28.54246,
+      "lng": 77.191651,
+      "pm25": 292.7,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "IGI Airport (T3), Delhi - IITM",
+      "lat": 28.5627763,
+      "lng": 77.1180053,
+      "pm25": 210.9,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "Commonwealth Sports Complex, Delhi - DPCC",
+      "lat": 28.615828,
+      "lng": 77.271992,
+      "pm25": 285.3,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "Aya Nagar, Delhi - IITM",
+      "lat": 28.4706914,
+      "lng": 77.1099364,
+      "pm25": 278.8,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "IMD Lodhi Road, Delhi - IITM",
+      "lat": 28.5918245,
+      "lng": 77.2273074,
+      "pm25": 267.8,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "JNU, Delhi - DPCC",
+      "lat": 28.540721,
+      "lng": 77.168544,
+      "pm25": 264.9,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "Alipur, Delhi - DPCC",
+      "lat": 28.815329,
+      "lng": 77.15301,
+      "pm25": 266.2,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "North Campus, DU, Delhi - IITM",
+      "lat": 28.6573814,
+      "lng": 77.1585447,
+      "pm25": 215.1,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "R K Puram, Delhi - DPCC",
+      "lat": 28.563262,
+      "lng": 77.186937,
+      "pm25": 262.3,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "Sonia Vihar, Delhi - DPCC",
+      "lat": 28.710508,
+      "lng": 77.249485,
+      "pm25": 270.0,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "Bawana, Delhi - DPCC",
+      "lat": 28.7762,
+      "lng": 77.051074,
+      "pm25": 341.4,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "Okhla Phase-2, Delhi - DPCC",
+      "lat": 28.530785,
+      "lng": 77.271255,
+      "pm25": 259.0,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "NSUT Jaffarpur, Delhi - DPCC",
+      "lat": 28.594004,
+      "lng": 76.909423,
+      "pm25": 237.1,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "Jahangirpuri, Delhi - DPCC",
+      "lat": 28.73282,
+      "lng": 77.170633,
+      "pm25": 368.1,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "Pusa, Delhi - IITM",
+      "lat": 28.63611,
+      "lng": 77.173332,
+      "pm25": 233.8,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "IGNOU_Maidan Garhi, Delhi - DPCC",
+      "lat": 28.493624,
+      "lng": 77.201159,
+      "pm25": 249.5,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "Talkatora Garden, Delhi - DPCC",
+      "lat": 28.62181,
+      "lng": 77.1944633,
+      "pm25": 244.9,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "NSIT Dwarka, Delhi - CPCB",
+      "lat": 28.60909,
+      "lng": 77.0325413,
+      "pm25": 267.8,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "CRRI Mathura Road, Delhi - IITM",
+      "lat": 28.5512005,
+      "lng": 77.2735737,
+      "pm25": 271.9,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "Burari Crossing, Delhi - IITM",
+      "lat": 28.7256504,
+      "lng": 77.2011573,
+      "pm25": 223.8,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "Sri Aurobindo Marg, Delhi - DPCC",
+      "lat": 28.531346,
+      "lng": 77.190156,
+      "pm25": 285.8,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "Ashok Vihar, Delhi - DPCC",
+      "lat": 28.695381,
+      "lng": 77.181665,
+      "pm25": 276.6,
+      "tier": "ACTIVE"
+    },
+    {
+      "station": "Dr. Karni Singh Shooting Range, Delhi - DPCC",
+      "lat": 28.498571,
+      "lng": 77.26484,
+      "pm25": 276.8,
+      "tier": "ACTIVE"
+    }
+  ]
+}
