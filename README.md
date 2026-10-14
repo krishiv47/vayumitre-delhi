@@ -4,6 +4,8 @@ Pollution-control operations for Delhi, built on the CPCB air-quality station ne
 Live station readings are forecast 24 hours ahead, grouped into drivable zones, diagnosed
 for their likely source, and turned into truck spray dispatch with a console for every driver.
 
+**Live demo:** https://krishiv47.github.io/vayumitre-delhi/ (Home, December scenario and Driver console; the Live page needs the Python server — see Run).
+
 ## Screenshots
 
 **Live operations** — live station map, fixed G zones, hourly P hotspots, trucks and likely sources
